@@ -94,18 +94,7 @@ function createBoard(grid, array) {
     cardArray.sort(() => 0.5 - Math.random())
     }
     
-    // flip Card function
-    
-    function flipCard() { 
-    let selected = this.dataset.id;
-    cardsSelected.push(cardArray[selected].name); 
-    cardsId.push(selected); 
-    this.classList.add("flip"); 
-    this.setAttribute("src", cardArray[selected].img); 
-    if (cardsId.length === 2) { 
-    setTimeout(checkForMatch, 500);
-    } 
-    }
+  
 
     //createBoard function
 
@@ -136,14 +125,13 @@ function createBoard(grid, array) {
         let imgs = document.querySelectorAll("img"); 
         let firstCard = cardsId[0];
         let secondCard = cardsId[1];
-        if (cardsSelected[0] === cardsSelected[1] && firstCard !== secondCard) { 
-        alert("you have found a match"); 
+        if (cardsSelected[0] === cardsSelected[1] && firstCard !== secondCard) {  
         cardsWon += 1; 
         scoreBoard.innerHTML = cardsWon; 
         setTimeout(checkWon,500) 
         } else { 
-        imgs[firstCard].setAttribute("src", "blank.png");
-        imgs[secondCard].setAttribute("src", "blank.png"); alert("wrong, please try again"); imgs[firstCard].classList.remove("flip"); imgs[secondCard].classList.remove("flip"); 
+        imgs[firstCard].setAttribute("src", "assets/images/blank.jpg");
+        imgs[secondCard].setAttribute("src", "assets/images/blank.jpg"); imgs[firstCard].classList.remove("flip"); imgs[secondCard].classList.remove("flip"); 
         } 
         cardsSelected = []; 
         cardsId = []; 
