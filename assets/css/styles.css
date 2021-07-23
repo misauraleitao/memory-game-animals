@@ -1,20 +1,30 @@
+
 body {
     background-color: lightskyblue;
+    
 }
 
 .grid { 
-    width: 90%; 
+    width: 400px; 
     height: 300px; 
     display: flex; 
     flex-wrap: wrap; 
-    margin: 60px auto; 
+    margin: 50px auto; 
+    margin-left: 15px;
+    
     } 
+    @media screen and (min-width: 600px) {
+        .grid{
+            grid-template-columns: repeat(3, auto);
+        }
+      }
     
     .grid img { 
     margin: 2px; 
     transform-style: preserve-3d; 
     transition: transform 0.5s; 
     } 
+
     
     .grid img.flip { 
     transform: rotateY(180deg); 
@@ -48,4 +58,5 @@ body {
         img {
             width: 100px;
             height: 100px;
+            border-radius: 15px;
         }
