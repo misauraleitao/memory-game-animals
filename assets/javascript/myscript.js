@@ -131,14 +131,16 @@ clicks += 1;
 clickBoard.innerHTML = clicks;
 }
 
+//To check if player won function.
+
 function checkWon() {
 if (cardsWon == cardArray.length / 2) {
-    alert("Well Done you matched them all, refresh the page to restart the game")
+    alert("Well Done you matched them all, refresh the page to restart the game") //alert to notify the user they won
     setTimeout(() => popup.style.display = "flex", 300);
 }
 }
 
-// The replay function
+// The replay function it will reshuffle cards
 
 function replay() {
 arrangeCard();
