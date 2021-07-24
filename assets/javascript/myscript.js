@@ -141,7 +141,7 @@ function createBoard(grid, array) {
         
         function checkWon() {
         if (cardsWon == cardArray.length / 2) {
-        alert("You won") 
+        alert("Well Done you matched them all, refresh the page to restart the game") 
         setTimeout(()=> popup.style.display = "flex" ,300); 
         }
         }
