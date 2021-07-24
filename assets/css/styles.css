@@ -1,89 +1,72 @@
 
 html body{
     background-color: lightskyblue;
-    
 }
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-
-.grid { 
-    width: 400px; 
-    height: 300px; 
-    display: flex; 
-    flex-wrap: wrap; 
-    margin: 50px auto; 
+}
+.grid {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
     margin-left: auto;
     padding-left: 52px;
-    
-    } 
-    @media screen and (min-width: 600px) {
-        .grid {
-            grid-template-columns: repeat(3, auto);
-        }
-      }
-    
-   
-    .grid img { 
-    margin: 2px; 
-    transform-style: preserve-3d; 
-    transition: transform 0.5s; 
-    } 
-
-    
-    .grid img.flip { 
-    transform: rotateY(180deg); 
-    } 
-    
-    .popup { 
-   
-    justify-content: center; 
-    align-items: center; 
+}
+@media screen and (min-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(3, auto);
+   }
+}
+.grid img {
+    margin: 2px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+.grid img.flip {
+    transform: rotateY(180deg);
+}
+.popup {
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    }
-    .data { 
-        display: flex; 
-        justify-content: space-between; 
-        padding: 20px 30px; 
-        font-size: 23px; 
-        } 
-        
-        .data span { 
-        color: white;
-        font-size: 30px; 
-        }
-
-        img {
-            width: 100px;
-            height: 100px;
-            border-radius: 15px;
-        }
-
-        @media screen and (max-width: 600px) {
-            img {
-                width: 80px;
-                height: 80px; ;
-            }
-          }
-
-        h1{
-            text-align: center;
-            font-family: 'Otomanopee One', sans-serif;
-            color: #ffdb58;
-            
-        }
-        h3{
-            font-family: 'Otomanopee One', sans-serif;
-            color: white; 
-            text-align: center;
-        }
-
-        
-        .description{
-          text-align: center;
-          margin: 1% 0;
-        }
-        
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-size: 23px;
+}
+.data span {
+    color: white;
+    font-size: 30px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+@media screen and (max-width: 600px) {
+    img {
+        width: 80px;
+        height: 80px;
+        ;
+   }
+}
+h1{
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #ffdb58;
+}
+h3{
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+    text-align: center;
+}
+.description{
+    text-align: center;
+    margin: 1% 0;
+}
