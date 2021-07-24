@@ -1,6 +1,6 @@
 # Memory Game Animals
 
-[View the live project here.]()
+[View Website here.](https://misauraleitao.github.io/memory-game-animals/)
 
 ## About
 
@@ -24,7 +24,8 @@ This is a fun game aimed for all ages to mainly pass their time. Even though it 
         -   The images that are used are all cartoon images of animals and they all are clip arts with a checked grey and white background. This makes it light on the eyes and goes perfect with the rest of the color scheme. The cartoon images are also got a cute look perfect for children and easier to remember when playing the game.
     ### Wireframes
     -  Here you can see pictures of the wireframes drawn.
-    
+    ![alt text for screen readers](assets/images/IMG_1833.jpg "Text to show on mouseover")
+
 
 ## Technologies Used
 
