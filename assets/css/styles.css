@@ -44,7 +44,7 @@ html body{
         } 
         
         .data span { 
-        color: rgb(206, 121, 11);
+        color: white;
         font-size: 30px; 
         }
 
@@ -65,14 +65,14 @@ html body{
             text-align: center;
             font-family: 'Otomanopee One', sans-serif;
             color: #ffdb58;
+            
         }
         h3{
             font-family: 'Otomanopee One', sans-serif;
             color: #ffdb58; 
+            
         }
 
-        p{
-            font-weight: bolder;
-        }
+        
 
         
