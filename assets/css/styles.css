@@ -31,14 +31,7 @@ html body{
     } 
     
     .popup { 
-    background: red; 
-    width: 200px; 
-    height: 200px; 
-    z-index:20;
-    position: fixed; 
-    top: 100px;
-    left: 100px; 
-    display: flex;
+   
     justify-content: center; 
     align-items: center; 
     flex-direction: column;
@@ -81,3 +74,5 @@ html body{
         p{
             font-weight: bolder;
         }
+
+        
