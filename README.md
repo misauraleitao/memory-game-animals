@@ -23,8 +23,8 @@ This is a fun game aimed for all ages to mainly pass their time. Even though it 
     -   #### Imagery
         -   The images that are used are all cartoon images of animals and they all are clip arts with a checked grey and white background. This makes it light on the eyes and goes perfect with the rest of the color scheme. The cartoon images are also got a cute look perfect for children and easier to remember when playing the game.
     ### Wireframes
-    -  Here you can see pictures of the wireframes drawn.
-    ![alt text for screen readers](assets/images/IMG_1833.jpg "Text to show on mouseover")
+    
+    ![wireframe](assets/images/IMG_1833.jpg "Text to show on mouseover")
 
 
 ## Technologies Used
@@ -97,8 +97,6 @@ Testing game functionality-
   I also tested the site on the following browsers-
   - Chrome - no issues
   - Firefox - no issues
-  - IE EDGE -no issues
-  - Opera -no issues
   - Safari - no issues
 
 
