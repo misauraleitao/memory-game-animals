@@ -1,5 +1,5 @@
 
-body {
+html body{
     background-color: lightskyblue;
     
 }
@@ -9,9 +9,8 @@ body {
     height: 300px; 
     display: flex; 
     flex-wrap: wrap; 
-    margin: 50px auto; 
-    margin-left: 15px;
-    justify-content: center;
+    margin: 40px auto; 
+    margin-left: 15px auto;
     
     } 
     @media screen and (min-width: 600px) {
@@ -62,6 +61,23 @@ body {
             border-radius: 15px;
         }
 
+        @media screen and (max-width: 600px) {
+            img {
+                width: 80px;
+                height: 80px; ;
+            }
+          }
+
         h1{
             text-align: center;
+            font-family: 'Otomanopee One', sans-serif;
+            color: #ffdb58;
+        }
+        h3{
+            font-family: 'Otomanopee One', sans-serif;
+            color: #ffdb58; 
+        }
+
+        p{
+            font-weight: bolder;
         }
